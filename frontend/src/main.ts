@@ -1,12 +1,10 @@
 import './style.css'
-import typescriptLogo from './typescript.svg'
-import { setupCounter } from './counter'
 import Konva from 'konva'
 
 let stage = new Konva.Stage({
   container: 'container',
-  width: 200,
-  height :500
+  width: window.innerWidth,
+  height : window.innerHeight
 })
 
 let layer = new Konva.Layer()
